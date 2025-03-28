@@ -1,0 +1,5 @@
+user_ocid        = "ocid1.user.oc1..aaaaaaaamjeoi23434jmz6ca5ejefvwpbp6pqiyksmo2samhpnhuyerfdyuq"
+fingerprint      = "06:eb:23:ed:69:55:60:81:77:ec:52:03:e0:a9:41:63"
+tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaa6hga6ofpuvw4piuzvxbuj35svlv3maffec2oiagw5rarxul4zpza"
+region           = "sa-saopaulo-1"
+private_key_path = "/home/marcus/.ssh/marcus.silva@jetsalesbrasil.com.br.pem"
