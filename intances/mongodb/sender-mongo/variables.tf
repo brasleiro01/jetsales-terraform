@@ -15,7 +15,7 @@ variable "compartment_id" {
 variable "availability_domain" {
   description = "dominio onde será criado"
   type        = string
-  default     = "Uocm:SA-SAOPAULO-AD-1"
+  default     = "EAtH:SA-SAOPAULO-1-AD-1"
 }
 
 variable "display_name" {
@@ -27,13 +27,13 @@ variable "display_name" {
 variable "shape" {
   description = "tipo da maquina que sera criada"
   type        = string
-  default     = "VM.Standard.E5.Flex"
+  default     = "VM.Standard.A1.Flex"
 }
 
 variable "image_ocid" {
   description = "imagem da maquina"
   type        = string
-  default     = "ocid1.image.oc1.ap-seoul-1.aaaaaaaaaanxodqymblcwfbncj2khdsq25az3bmruscl2cd6hkedhqcmvrxq"
+  default     = "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa5icle7a6wogvy4rvosxkkh3yvfwygoe5obxbi6366w2bkucgkgna"
 }
 
 variable "selected_AD" {
